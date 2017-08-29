@@ -1,0 +1,20 @@
+--- #Creating Condition statement
+
+- hosts: apache
+  sudo: yes
+  user: test
+  connection: ssh
+  gather_facts: yes
+  vars: 
+     playbook_type: conditonal_example
+  vars_files:
+      - conf/copyright.yml
+      - conf/webdefaults.yml
+  tasks:
+    - name: Install apache to disibution
+      command: yum install httpd -y 
+      when: ansible_os_family=="RedHat"
+
+ 
+     
+  

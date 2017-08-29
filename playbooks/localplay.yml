@@ -1,0 +1,9 @@
+--- # localaction playbook
+
+- hosts: local
+  connection: ssh
+  tasks:
+     - name: install telnet
+       yum: pkg=telnet state=latest
+
+  

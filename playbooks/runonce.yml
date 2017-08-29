@@ -1,0 +1,13 @@
+--- # Runonce Plybook
+
+- hosts: all
+  user: test
+  sudo: no
+  connection: ssh
+  gather_facts: no
+  tasks: 
+    - name: Run the update command on all hosts and log it
+      raw: /usr/bin/uptime >> /home/test/uptime.log
+    - name: list the /var Dir and log it
+      raw: ls -l /var >> /home/test/var_list.list
+      run_once: true

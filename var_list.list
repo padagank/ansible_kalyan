@@ -1,0 +1,40 @@
+total 8
+drwxr-xr-x.  2 root root    6 Nov  5  2016 adm
+drwxr-xr-x.  5 root root   44 Jun 20 21:26 cache
+drwxr-xr-x.  3 root root   34 Aug 14 11:31 db
+drwxr-xr-x.  3 root root   18 Jun 20 21:26 empty
+drwxr-xr-x.  2 root root    6 Nov  5  2016 games
+drwxr-xr-x.  2 root root    6 Nov  5  2016 gopher
+drwxr-xr-x.  3 root root   18 Jun 20 21:25 kerberos
+drwxr-xr-x. 35 root root 4096 Aug 14 11:46 lib
+drwxr-xr-x.  2 root root    6 Nov  5  2016 local
+lrwxrwxrwx.  1 root root   11 Jun 20 21:24 lock -> ../run/lock
+drwxr-xr-x.  9 root root 4096 Aug 29 13:32 log
+lrwxrwxrwx.  1 root root   10 Jun 20 21:24 mail -> spool/mail
+drwxr-xr-x.  2 root root    6 Nov  5  2016 nis
+drwxr-xr-x.  2 root root    6 Nov  5  2016 opt
+drwxr-xr-x.  2 root root    6 Nov  5  2016 preserve
+lrwxrwxrwx.  1 root root    6 Jun 20 21:24 run -> ../run
+drwxr-xr-x.  8 root root   87 Jun 20 21:26 spool
+drwxrwxrwt.  3 root root   29 Aug 29 13:33 tmp
+drwxr-xr-x.  2 root root    6 Nov  5  2016 yp
+total 8
+drwxr-xr-x.  2 root root    6 Nov  5  2016 adm
+drwxr-xr-x.  5 root root   44 Jun 20 21:26 cache
+drwxr-xr-x.  3 root root   34 Aug 14 11:31 db
+drwxr-xr-x.  3 root root   18 Jun 20 21:26 empty
+drwxr-xr-x.  2 root root    6 Nov  5  2016 games
+drwxr-xr-x.  2 root root    6 Nov  5  2016 gopher
+drwxr-xr-x.  3 root root   18 Jun 20 21:25 kerberos
+drwxr-xr-x. 35 root root 4096 Aug 14 11:46 lib
+drwxr-xr-x.  2 root root    6 Nov  5  2016 local
+lrwxrwxrwx.  1 root root   11 Jun 20 21:24 lock -> ../run/lock
+drwxr-xr-x.  9 root root 4096 Aug 29 13:32 log
+lrwxrwxrwx.  1 root root   10 Jun 20 21:24 mail -> spool/mail
+drwxr-xr-x.  2 root root    6 Nov  5  2016 nis
+drwxr-xr-x.  2 root root    6 Nov  5  2016 opt
+drwxr-xr-x.  2 root root    6 Nov  5  2016 preserve
+lrwxrwxrwx.  1 root root    6 Jun 20 21:24 run -> ../run
+drwxr-xr-x.  8 root root   87 Jun 20 21:26 spool
+drwxrwxrwt.  3 root root   29 Aug 29 13:33 tmp
+drwxr-xr-x.  2 root root    6 Nov  5  2016 yp

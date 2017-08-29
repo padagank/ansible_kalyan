@@ -1,0 +1,13 @@
+--- # loops
+- hosts: apache
+  user: test
+  become: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+    - name: Add a list of users
+      user: name={{item}} state=present
+      with_items:
+          - user1
+          - user3
+    

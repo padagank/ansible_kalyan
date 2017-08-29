@@ -1,0 +1,24 @@
+--- #outline to playbook
+- hosts: apache
+  user: test
+  become: yes
+  connection: ssh
+  gather_facts: no
+  tasks:
+    - name: Date/Time stamp for playbook start
+      raw: /usr/bin/date > /home/test/playbook_start.log
+    - name: Install the webserver
+      yum : pkg=httpd state=installed
+    - name: Start the web service
+      service: name=httpd state=restarted
+    - name: verifiy the web ser is running
+      command: systemctl status httpd
+      register: result
+    - debug: var=result
+    - name: Install client software -telnet
+      yum: pkg=telnet  state=latest
+    - name: Install Client Software -lynx
+      yum: pkg=lynx state=latest
+
+    
+
